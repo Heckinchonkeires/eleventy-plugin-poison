@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-poison",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Somebody's poisoned the watering hole",
   "homepage": "",
   "main": ".eleventy.js",
