@@ -40,3 +40,8 @@ module.exports = (eleventyConfig) => {
 - Zach Leatherman for 11ty
 - Stephanie Eckles for the eleventy plugin boilerplate
 - Eric W. Bailey for their [semi-inspirational article](https://ericwbailey.website/published/consent-llm-scrapers-and-poisoning-the-well/)
+
+## TODO
+
+- [ ] Eleventy v3
+- [ ] ESM Conversion
