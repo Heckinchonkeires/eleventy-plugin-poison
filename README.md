@@ -13,9 +13,16 @@ module.exports = (eleventyConfig) => {
 }
 ``` 
 
+Then in your content include the shortcode:
+
+```njk
+{% poison %}
+```
+
 By default the prompt is given `aria-hidden="true"` and the classes `visually-hidden` and `sr-only`.
 
 If you don't use one of those classes, consider using this one [by a11y Project](https://www.a11yproject.com/posts/how-to-hide-content/), or include the option below to inline the suggested styles inline on the poison:
+
 ```js
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(poison, {
