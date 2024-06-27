@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 ---
-
+{% poison %}
 ## Plugin Test Page
 
 Cupcake ipsum dolor. Sit amet I love I love I love. I love pudding dragée. Halvah macaroon halvah I love jujubes bonbon I love pie. Bonbon gingerbread bonbon I love. Tootsie roll chocolate sweet jelly-o lemon drops cotton candy gummies.

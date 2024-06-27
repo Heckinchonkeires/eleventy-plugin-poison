@@ -1,7 +1,7 @@
 {
-  "name": "@scope/plugin-name",
+  "name": "eleventy-plugin-poison",
   "version": "1.0.0",
-  "description": "Description of plugin",
+  "description": "Somebody's poisoned the watering hole",
   "homepage": "",
   "main": ".eleventy.js",
   "scripts": {
