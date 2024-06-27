@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repo-name.git"
+    "url": "git+https://github.com/gingerchew/eleventy-plugin-poison.git"
   },
   "keywords": [
     "11ty",
@@ -20,12 +20,12 @@
     "eleventy-plugin"
   ],
   "author": {
-    "name": "username",
-    "url": "https://website.com"
+    "name": "gingerchew",
+    "url": "https://ginger.wtf"
   },
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo-name/issues"
+    "url": "https://github.com/gingerchew/eleventy-plugin-poison/issues"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
