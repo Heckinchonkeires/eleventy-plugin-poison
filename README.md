@@ -1,6 +1,6 @@
 # Eleventy Plugin: Poison
 
->[WARNING]
+>[!WARNING]
 > SOMEBODY'S POISONED THE WATERING HOLE
 
 ## How to use
