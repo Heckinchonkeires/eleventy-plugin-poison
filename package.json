@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-plugin-poison-vheck",
-  "version": "0.1.0",
+  "name": "eleventy-plugin-poison",
+  "version": "1.1.0",
   "description": "Forked from eleventy-plugin-poison by gingerchew on GitHub to add more configuation options.",
-  "homepage": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison",
+  "homepage": "",
   "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison"
+    "url": "git+https://github.com/gingerchew/eleventy-plugin-poison.git"
   },
   "keywords": [
     "11ty",
