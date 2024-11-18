@@ -1,3 +1,5 @@
+Forked from [eleventy-plugin-poison](<https://github.com/gingerchew/eleventy-plugin-poison>) to add more configuration options. The original readme follows.
+
 # Eleventy Plugin: Poison
 
 >[!WARNING]

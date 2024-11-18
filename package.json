@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-plugin-poison",
-  "version": "1.0.1",
-  "description": "Somebody's poisoned the watering hole",
-  "homepage": "",
+  "name": "eleventy-plugin-poison-vheck",
+  "version": "0.1.0",
+  "description": "Forked from eleventy-plugin-poison by gingerchew on GitHub to add more configuation options.",
+  "homepage": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison",
   "main": ".eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gingerchew/eleventy-plugin-poison.git"
+    "url": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison"
   },
   "keywords": [
     "11ty",
@@ -23,9 +23,16 @@
     "name": "gingerchew",
     "url": "https://ginger.wtf"
   },
+	"contributors": [
+		{
+    	"name": "Heckinchonkeires",
+    	"url": "https://web.heckinchonkeires.me",
+			"email": "dev@heckinchonkeires.me"
+		}
+	],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gingerchew/eleventy-plugin-poison/issues"
+    "url": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison/issues"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
