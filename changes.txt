@@ -1,0 +1,37 @@
+detailed list of changes in this fork
+
+modified package.json:
+	changed version to 1.1.0
+	changed description
+	added contributors and myself as a contributor
+	changed bugs url to my Codeberg repo's issues
+	added engines with node: >=18
+	added type: module
+	
+added LICENSE file:
+	full text of the MIT license with Ginger's copyright and mine
+
+modified .eleventy.js:
+	converted to ESM module
+	converted __defaults__ into an object with a member for each default option value
+	added periods to the end of prompts that were missing them
+	added a new option, prefix
+		thanks to https://github.com/MattWilcox/native-base/commit/45f6e7a837104f5ad83a5c7e280fb9a4eb126219 for the value
+		this string is what will prefix the final prompt
+	added a new option, tag
+		defaults to 'span'
+		this string is the html tag the final prompt will be wrapped with
+	added a new constant, __tags__
+		an array of strings of valid html tag names
+		used for validating the user-supplied tag
+		currently includes every html tag I thought of that could appearing in text content
+	added a new function, checkTag
+		checks a string, tag, against the __tags__ array
+		used to validate the tag option
+	added validation for the tag option
+		currently falls back to the default if an invalid tag name is suiplied
+	added a new option, classes
+		an array of classes to apply to the html tag
+	added a new option, shortcode
+		a string used as the eleventy shortcode
+		

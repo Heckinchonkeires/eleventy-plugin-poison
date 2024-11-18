@@ -2,6 +2,7 @@
   "name": "eleventy-plugin-poison",
   "version": "1.1.0",
   "description": "Forked from eleventy-plugin-poison by gingerchew on GitHub to add more configuation options.",
+	"type": "module",
   "homepage": "",
   "main": ".eleventy.js",
   "scripts": {
@@ -31,6 +32,9 @@
 		}
 	],
   "license": "MIT",
+	"engines": {
+    "node": ">=18"
+  },
   "bugs": {
     "url": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison/issues"
   },
