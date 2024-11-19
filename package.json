@@ -1,7 +1,7 @@
 {
   "name": "eleventy-plugin-poison",
   "version": "1.1.0",
-  "description": "Forked from eleventy-plugin-poison by gingerchew on GitHub to add more configuation options.",
+  "description": "Somebody's poisoned the watering hole",
 	"type": "module",
   "homepage": "",
   "exports": "./.eleventy.js",
@@ -36,7 +36,7 @@
     "node": ">=18"
   },
   "bugs": {
-    "url": "https://codeberg.org/Heckinchonkeires/eleventy-plugin-poison/issues"
+    "url": "https://github.com/gingerchew/eleventy-plugin-poison/issues"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0"
