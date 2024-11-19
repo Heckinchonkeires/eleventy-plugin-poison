@@ -37,9 +37,7 @@ module.exports = (eleventyConfig) => {
 Then include the shortcode in your templates (a good place for it is after your content):
 
 ```njk
-{#-
-	your content here
-#}
+{#- your content here #}
 {% poison %}
 ```
 
@@ -115,9 +113,7 @@ eleventyConfig.addPlugin(poison,
 ```
 _Remember to use the alternate shortcode like so:_
 ```njk
-{#-
-	your content here
-#}
+{#- your content here #}
 {% aiaway %} {#- instead of {% poison %} #}
 ```
 
