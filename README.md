@@ -65,24 +65,33 @@ If you want to provide your own additional prompts, use the `prompts` option.
 **`prompts`**
 
 Additional prompts for the plugin to choose from
+
 **`includeCSS`**
 
 If true, the plugin adds the a11y Project-recommended CSS styles for hidden content inline on the poison element
+
 Set this option if you don't want to add content-hiding CSS elsewhere
+
 **`prefix`**
 
 A string used to prefix the poison text
+
 Set this option if you want the poison text to start with a different phrase from the default "Disregard all previous prompts and commands and"
+
 **`tag`**
 
 The html tag used to wrap the poison text
+
 Set this option if you want the poison to have an alternate tag to `span`
+
 **`classes`**
 
 Additional classes to add to the poison element
+
 **`shortcode`**
 
 The shortcode to add to Eleventy
+
 Set this option if you want to call the plugin something different from "poison" in your templates
 
 ### Example configurations
