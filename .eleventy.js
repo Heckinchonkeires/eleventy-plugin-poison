@@ -52,10 +52,15 @@ const visuallyHiddenStyles = `style="clip: rect(0 0 0 0);clip-path: inset(50%);h
 /**
  * 
  * @param {import('@11ty/eleventy').UserConfig} eleventyConfig 
- * @param {{ prompts?: string[], includeCSS?: boolean, prefix?: string, tag?: string, classes?: string[], shortcode?: string }} options
+ * @param {{ 
+ * 	prompts?: string[], 
+ * 	includeCSS?: boolean, 
+ * 	prefix?: string, 
+ * 	tag?: string, 
+ * 	classes?: string[], 
+ * 	shortcode?: string }} options
  */
 export default (eleventyConfig, options = {}) => {
-	// const tag = checkTag(options.tag) ? options.tag : __defaults__.tag;
   const { 
 		prompts = [], 
 		includeCSS = false, 
