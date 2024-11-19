@@ -4,7 +4,7 @@
   "description": "Forked from eleventy-plugin-poison by gingerchew on GitHub to add more configuation options.",
 	"type": "module",
   "homepage": "",
-  "main": ".eleventy.js",
+  "exports": "./.eleventy.js",
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
